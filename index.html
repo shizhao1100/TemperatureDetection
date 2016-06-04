@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Temperature</title>
+        
+        <script type="text/javascript" src="lib/d3.js"></script>
+        <script type="text/javascript" src="lib/jquery-2.1.4.js"></script>
+        
+        <link href="CSS/AxisGraph.css" rel="stylesheet">
+        <link href="CSS/WarringText.css" rel="stylesheet">
+        <link href="CSS/main.css" rel="stylesheet">
+        
+        <script type="text/javascript" src="js/GreateData.js"></script>
+		<script type="text/javascript" src="js/Display.js"></script>		
+        <script type="text/javascript" src="js/CollectData.js"></script>
+        <script type="text/javascript" src="js/PolyFit.js"></script>
+		<script type="text/javascript" src="js/CurveFitting.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+    </head>
+    <body>
+        <div id = "Top">
+            <p id = warring >Warring</p>
+        </div>
+        
+        <div id="header">
+        <button type="button" id="begin" onClick="checkb();">Begin!</button>
+        <button type="button" id="storp" onClick="checks();">Storp!</button>
+        <button type="button" id="DownLoadLogFile" onClick="window.open('Data/Data.csv')">DownLoadLogFile!</button>
+        
+        </div>  
+        <div id = "Grough" ></div>
+        <div id = "bottom" ></div>
+    </body>
